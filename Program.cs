@@ -6,7 +6,8 @@ namespace LuckyTicket
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var playLottery = new CheckTicket();
+            playLottery.CheckYourLuck();
         }
     }
 }
