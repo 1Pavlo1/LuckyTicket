@@ -20,7 +20,7 @@ namespace LuckyTicket
                     ticketNumber = PrintNumber();
                 }
 
-                string[] ticketNumberParts = SeparateString(ticketNumber);
+                var ticketNumberParts = SeparateString(ticketNumber);
 
                 var firstPartSum = CountSum(int.Parse(ticketNumberParts[0]));
                 var secondPartSum = CountSum(int.Parse(ticketNumberParts[1]));
